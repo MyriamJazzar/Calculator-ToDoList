@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 10px;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.FlexContainer1 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.FlexContainer2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#Dark{
+    width: 30px;
+    cursor: pointer;
+}
+
+.Box{
+    background-color: #bbd2e1;
+    width: 400px;
+    height: 400px;
+}
+
+.Box:hover{
+    background-color: #325a759c;
+}
+
+.Box p
+{
+    text-align: center;
+    margin-top: 196px;
+    font-size:x-large;
+    cursor: pointer;
+}
+
+.FlexContainer4
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.FlexContainer3
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+button{
+    background-color: #bbd2e1;
+    border: none;
+    width: 250px;
+    height: 100px;
+    font-size: larger;
+}
+.but{
+    width: 120px;
+    height: 40px;
+}
+
+.butt{
+    width: 600px;
+    height: 40px;
+    
+    
+}
+
+.buttt{
+    display: flex;
+    justify-content: center;
+}
+button:hover{
+    cursor: pointer;
+}
+h3{
+    margin-top: 80px;
+    text-align: center;
+    font-size:xx-large;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-color:  #bbd2e137;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #325a759c;
+}
+
+.Add{
+   display:flex;
+   justify-content: center;
+}
+.But2{
+    width: 90px;
+    height: 40px;
+    background-color: rgb(234, 115, 115);
+}
+
+.But2:hover
+{
+    background-color: rgba(159, 29, 29, 0.761);
+}
+
+.Item.completed label{
+    text-decoration: line-through;
+}
+
+.FlexContainer1Do
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+ul{
+    list-style: none;
+    margin-left: 100px;
+}
+
+.Check
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 40px;
+}

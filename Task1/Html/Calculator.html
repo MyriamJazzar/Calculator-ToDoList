@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1Calc</title>
+    <link rel="stylesheet" href="../Css/Style.css" />
+</head>
+<body>
+    <div class="FlexContainer1">
+        <a href="Index.html">Home</a>
+        <img onclick="Change()" src="../Imgs/moon.png" id="Dark">
+    </div>
+
+    <div class="FlexContainer3">
+        <div>
+            X<input type="text"  id="X" />
+        </div>
+        <div>
+            Y<input type="text"  id="Y" />
+        </div>
+        
+    </div>
+    
+
+    <div class="FlexContainer4">
+        <button onclick="ShowAdd()">Addition</button>
+        <button onclick="ShowMult()">Multiplication</button>
+        <button onclick="ShowSub()">Subtraction</button>
+        <button onclick="ShowDiv()">Division</button>
+    </div>
+    
+    <h3></h3>
+    <script src="../Js/Calculator.js"></script>
+    <script src="../Js/Main.js"></script>
+</body>
+</html>
